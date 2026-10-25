@@ -1,15 +1,15 @@
-# 🛒 Sistema de Tienda y Facturación (Python + Tkinter)
+# 🛒 Store Inventory and Billing System (Python + Tkinter)
 
-Aplicación de escritorio desarrollada en Python que implementa un sistema completo de gestión de inventario y facturación. El proyecto evoluciona desde una lógica de consola basada en diccionarios y listas hasta una interfaz gráfica interactiva construida con **Tkinter**.
+Desktop application developed in Python that implements a complete inventory management and billing system. The project evolves from a console-based logic using dictionaries and lists to an interactive graphical user interface built with **Tkinter**.
 
 ---
 
-## ⚙️ ¿Cómo Funciona el Código? (Estructura y Lógica)
+## ⚙️ How the Code Works (Structure and Logic)
 
-El código fuente está estructurado de manera modular para separar los datos, la lógica de negocio y la interfaz de usuario:
+The source code is structured modularly to separate data, business logic, and the user interface:
 
-### 1. Estructura de Datos (Backend)
-* **Diccionarios y Listas:** El inventario se almacena en una lista de diccionarios, donde cada producto contiene claves específicas (`"nombre"`, `"precio"` y `"stock"`):
+### 1. Data Structure (Backend)
+- **Dictionaries and Lists:** The inventory is stored in a list of dictionaries, where each product contains specific keys (`"nombre"`, `"precio"`, and `"stock"`):
   ```python
   productos = [
       {"nombre": "Salchipapa", "precio": "10.000 COP", "stock": 10},
